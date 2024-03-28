@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://winnieepm.github.io/palo-pana-helicoptero/palo-de-pana/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Palo de pana" ] },
+    "items": [
+      {
+        "id": "https://winnieepm.github.io/palo-pana-helicoptero/palo-de-pana/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 5.43,
+        "items": [
+          {
+            "id": "https://winnieepm.github.io/palo-pana-helicoptero/palo-de-pana/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://winnieepm.github.io/palo-pana-helicoptero/palo-de-pana/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://youtu.be/bP2RPeq3p1w?si=QlPLDrpLHeo1Q0de",
+                    "duration": 5.43
+                },
+                "target": "https://winnieepm.github.io/palo-pana-helicoptero/palo-de-pana/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
