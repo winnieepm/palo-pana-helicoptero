@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://winnieepm.github.io/palo-pana-helicoptero/don-chucho/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "don chucho" ] },
+    "homepage": [
+      {
+        "id": "https://www.youtube.com/watch?v=bP2RPeq3p1w",
+        "type": "Text",
+        "label": { "en": [ "don chucho" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://www.youtube.com/",
+        "type": "Agent",
+        "label": { "en": [ "YouTube" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://winnieepm.github.io/palo-pana-helicoptero/don-chucho/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 343.0,
+        "items": [
+          {
+            "id": "https://winnieepm.github.io/palo-pana-helicoptero/don-chucho/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://winnieepm.github.io/palo-pana-helicoptero/don-chucho/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://youtu.be/bP2RPeq3p1w?si=uALdAp8SBlDif-_T",
+                    "duration": 343.0
+                },
+                "target": "https://winnieepm.github.io/palo-pana-helicoptero/don-chucho/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
